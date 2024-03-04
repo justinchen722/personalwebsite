@@ -1,10 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .coverContainer {
     width: 100%;
+    overflow: hidden;
+    
 }
 
 .cover {
@@ -13,7 +17,9 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+    width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .nameContainer {
@@ -23,6 +29,7 @@
     width: 100%;
     backdrop-filter: blur(10px);
     border-bottom: black solid;
+    overflow: hidden;
 }
 
 .name {
@@ -36,7 +43,7 @@
 
 .idContainer {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     display: grid;
     position: relative;
     background: linear-gradient(to right, #ff7e5f, #feb47b); /* Replace colors with your desired gradient */
@@ -91,15 +98,53 @@
 }
 
 .textContainer {
-    padding: 10px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
+.world {
+    font-size: 4vw;
+}
+
+.emphasis {
+    font-weight: 1000;
+    font-size: 3/1vw;
+    font-style: oblique;
+}
+
 .aboutmeText {
-    font-size: 1.5vw;
-    @media screen and (max-width: 1000px) {
-        font-size: 2.5vw;
-    }
+    font-weight: 400;
+    font-size: 1/2vw;
+}
+
+.colorfulWorld {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3), 0 0 20px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0);
+    background: linear-gradient(45deg, #3498db, green, green, #f39c12);
+    color: transparent;
+    -webkit-background-clip: text;
+    transition: transform 0.5s ease;
+    transform: translateX(20px) translateZ(0);
+}
+
+.colorfulWorld:hover {
+    transform: translateX(10px) translateZ(0);
+}
+
+.hand {
+    width: 10vw;
+    position: relative;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }

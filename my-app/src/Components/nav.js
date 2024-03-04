@@ -29,7 +29,7 @@ function Nav() {
             className = "link"
             style={{ textDecoration: "none" }}
             href="#about-me-section"
-            to="/"
+            to="/about-me"
           >
             About Me
           </Link>
@@ -57,7 +57,7 @@ function Nav() {
         <li>
           <Link
             className="link"
-            to="/contact"
+            to="mailto:justinchen722@berkeley.edu"
             style={{ textDecoration: "none" }}
           >
             <button className="button-17" role="button">

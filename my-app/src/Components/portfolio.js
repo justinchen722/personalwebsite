@@ -8,6 +8,7 @@ function Portfolio() {
 
   return (
     <div className="allContainer">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"></link>
       <div className="titleContainer">
         <h1 className="topTitle">These are the things I've been up to.</h1>
       </div>
