@@ -30,39 +30,39 @@ function Home(props) {
     );
   };
 
-  const MyComponent = () => {
-    const targetRef = useRef(null);
+  // const MyComponent = () => {
+  //   const targetRef = useRef(null);
 
-    useEffect(() => {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('show');
-          } else {
-            entry.target.classList.remove('show');
-          }
-        });
-      });
+  //   useEffect(() => {
+  //     const observer = new IntersectionObserver((entries) => {
+  //       entries.forEach((entry) => {
+  //         if (entry.isIntersecting) {
+  //           entry.target.classList.add('show');
+  //         } else {
+  //           entry.target.classList.remove('show');
+  //         }
+  //       });
+  //     });
 
-      observer.observe(targetRef.current);
+  //     observer.observe(targetRef.current);
 
-      return () => {
-        observer.disconnect();
-      };
-    }, []);
+  //     return () => {
+  //       observer.disconnect();
+  //     };
+  //   }, []);
 
-    return (
-      <div ref={targetRef} className="nameContainer">
-        <h1 className="name">
-          <p className="hi">
-            hi, i am justin.
-            <img className="hand" src="wavinghand.gif" alt="Waving Hand" />
-          </p>
-          <ExampleComponent />
-        </h1>
-      </div>
-    );
-  };
+  //   return (
+  //     <div ref={targetRef} className="nameContainer">
+  //       <h1 className="name">
+  //         <p className="hi">
+  //           hi, i am justin.
+  //           <img className="hand" src="wavinghand.gif" alt="Waving Hand" />
+  //         </p>
+  //         <ExampleComponent />
+  //       </h1>
+  //     </div>
+  //   );
+  // };
 
   const handleClickScroll = () => {
     const element = document.getElementById("about-me-section");

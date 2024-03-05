@@ -5,10 +5,12 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 function Portfolio() {
-
   return (
     <div className="allContainer">
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"></link>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet"
+      ></link>
       <div className="titleContainer">
         <h1 className="topTitle">These are the things I've been up to.</h1>
       </div>
@@ -56,7 +58,7 @@ function Portfolio() {
             </div>
             <div className="thirdC">
               <a href="https://www.miamicarwash.us/">
-                <img src="MiamiCarWash.png" alt="Description of the image" />
+                <img src="MiamiCarWash.png" alt="Description of the" />
               </a>
             </div>
           </div>
