@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from "react";
 import "./home.css";
 import { TypeAnimation } from "react-type-animation";
 import { FaInstagram } from "react-icons/fa";
@@ -8,7 +8,6 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { useState } from "react";
 
 function Home(props) {
-
   const ExampleComponent = () => {
     return (
       <TypeAnimation
@@ -110,7 +109,13 @@ function Home(props) {
         <div className="cover">
           <div className="nameContainer">
             <h1 className="name">
-              <p className="hi">hi, i am justin.<img className="hand" src="wavinghand.gif"></img></p>
+              <p className="hi">
+                hi, i am justin.
+                <img
+                  className="hand"
+                  src={require("../assets/wavinghand.gif")}
+                ></img>
+              </p>
               <ExampleComponent></ExampleComponent>
             </h1>
           </div>
@@ -119,7 +124,7 @@ function Home(props) {
       <div id="about-me-section" className="idContainer">
         <div className="photo">
           <div className="photoContainer">
-            <img src="mogged.jpg"></img>
+            <img src={require("../assets/mogged.jpg")}></img>
           </div>
         </div>
         <div className="justin">

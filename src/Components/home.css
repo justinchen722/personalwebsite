@@ -12,7 +12,7 @@
 }
 
 .cover {
-    background-image: url('../../public/moss.jpg');
+    background-image: url('../assets/moss.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

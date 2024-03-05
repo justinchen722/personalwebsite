@@ -58,7 +58,7 @@ function Portfolio() {
             </div>
             <div className="thirdC">
               <a href="https://www.miamicarwash.us/">
-                <img src="MiamiCarWash.png" alt="Description of the" />
+                <img src={require("../assets/MiamiCarWash.png")} alt="Description of the" />
               </a>
             </div>
           </div>
@@ -90,7 +90,7 @@ function Portfolio() {
             </div>
             <div className="thirdC">
               <a href="https://lemonleafgrill.m988.com/index.html?nav=CONTACT">
-                <img src="Lemonleaf_Grill.jpg" alt="Description of the image" />
+                <img src={require("../assets/Lemonleaf_Grill.jpg")} alt="Description of the image" />
               </a>
             </div>
           </div>
@@ -135,7 +135,7 @@ function Portfolio() {
                 id="hover"
                 href="https://www.canva.com/design/DAFsnyOUZ0M/cHfmughEsAnBYS2En00xtQ/edit"
               >
-                <img src="crownHeights.jpeg" alt="Description of the image" />
+                <img src={require("../assets/crownHeights.jpeg")} alt="Description of the image" />
               </a>
             </div>
           </div>
