@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from 'react';
 import "./home.css";
 import { TypeAnimation } from "react-type-animation";
 import { FaInstagram } from "react-icons/fa";
@@ -8,6 +8,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { useState } from "react";
 
 function Home(props) {
+
   const ExampleComponent = () => {
     return (
       <TypeAnimation
@@ -23,7 +24,7 @@ function Home(props) {
         ]}
         wrapper="span"
         speed={50}
-        style={{ fontSize: "4vw", display: "inline-block", color: 'white'}}
+        style={{ fontSize: "3vw", display: "inline-block" }}
         repeat={Infinity}
       />
     );
@@ -109,13 +110,7 @@ function Home(props) {
         <div className="cover">
           <div className="nameContainer">
             <h1 className="name">
-              <p className="hi">
-                hi, i am justin.
-                <img
-                  className="hand"
-                  src={require("../assets/wavinghand.gif")}
-                ></img>
-              </p>
+              <p className="hi">hi, i am justin.<img className="hand" src="wavinghand.gif"></img></p>
               <ExampleComponent></ExampleComponent>
             </h1>
           </div>
@@ -124,8 +119,7 @@ function Home(props) {
       <div id="about-me-section" className="idContainer">
         <div className="photo">
           <div className="photoContainer">
-            {/* <img src="../assets/mogged.jpg"></img> */}
-            <div>hello</div>
+            <img src="mogged.jpg"></img>
           </div>
         </div>
         <div className="justin">
@@ -144,19 +138,22 @@ function Home(props) {
             </a>
           </div>
           <div className="textContainer">
-            <h1 className="world">You landed on my page!</h1>
+            <h1 className="world">
+              Welcome to my little <p className="colorfulWorld">WORLD!</p>
+            </h1>
             <p className="emphasis">
-              "Hi I am Justin, a interdisciplinary student at Berkeley. I love
-              working on full-stack web development projects. Outside of class,
-              I love videograhy and exploring the intersection between business
-              and tech. If you're interested in joining forces to make a
-              positive impact on the world, don't hesitate to reach out."
+              Software Developer currenty located in Berkeley California ☀️
             </p>
-            <p className="emphasis">Current Location: Berkeley, California</p>
-            <p className="emphasis">Hometown: Queens, New York</p>
             <p className="emphasis">
-              Seeking opportunities in: Product Management and Software
-              Engineering
+              On the lookout for work in development and intern opportunities in
+              product management and software engineering.
+            </p>
+            <p className="aboutmeText">
+              "I'm a Computer Science student at UC Berkeley. I love working on
+              full-stack web development projects. Outside of classes, I'm into
+              exploring entrepreneurship and the intersection of business and
+              tech. If you're interested in joining forces to make a positive
+              impact on the world, don't hesitate to reach out. ✨"
             </p>
           </div>
           <script>

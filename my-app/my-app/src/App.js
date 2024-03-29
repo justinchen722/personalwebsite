@@ -14,13 +14,10 @@ function App() {
       <Router>
         <Nav />
         <Routes>
-          <Route path="/personalwebsite/" element={<Home sasha="false" />} />
-          <Route
-            path="/personalwebsite/about-me"
-            element={<Home sasha="true" />}
-          />
-          <Route path="/personalwebsite/portfolio" element={<Portfolio />} />
-          <Route path="/personalwebsite/resume" element={<Res />} />
+          <Route path="/" element={<Home sasha = 'false' />} />
+          <Route path="/about-me" element={<Home sasha = 'true' />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/resume" element={<Res />} />
         </Routes>
         <Footer />
       </Router>

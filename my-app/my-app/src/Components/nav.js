@@ -9,7 +9,7 @@ function Nav() {
         <li>
           <Link className="link" to="/" style={{ textDecoration: "none" }}>
             <a href="#home">
-              <img className="icon" src={require("../assets/icon.png")}></img>
+              <img className="icon" src="./icon.png"></img>
             </a>
           </Link>
         </li>
@@ -17,7 +17,7 @@ function Nav() {
           <Link
             id="hover"
             className="link"
-            to="/personalwebsite/"
+            to="/"
             style={{ textDecoration: "none" }}
           >
             <a id='hover' style={{ textDecoration: "none" }} href="#home">Home</a>
@@ -29,7 +29,7 @@ function Nav() {
             className = "link"
             style={{ textDecoration: "none" }}
             href="#about-me-section"
-            to="/personalwebsite/about-me"
+            to="/about-me"
           >
             About Me
           </Link>
@@ -38,7 +38,7 @@ function Nav() {
           <Link
             id="hover"
             className="link"
-            to="/personalwebsite/portfolio"
+            to="/portfolio"
             style={{ textDecoration: "none" }}
           >
             Portfolio
@@ -48,7 +48,7 @@ function Nav() {
           <Link
             id="hover"
             className="link"
-            to="https://pdf.ac/1ad6hw"
+            to="https://docs.google.com/document/d/1A2geNwd7XtleQkzHiqqhC9NzVTAxRnpT1eLVNfghVwI/edit"
             style={{ textDecoration: "none" }}
           >
             Resume
