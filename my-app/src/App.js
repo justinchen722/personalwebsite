@@ -3,7 +3,7 @@ import Home from "./Components/home";
 import Nav from "./Components/nav";
 import Res from "./Components/resume";
 import Portfolio from "./Components/portfolio";
-import Contact from "./Components/contact";
+import Cube from "./Components/cube";
 import Footer from "./Components/footer";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -25,6 +25,7 @@ function App() {
         <Footer />
       </Router>
     </div>
+    // <Cube />
   );
 }
 

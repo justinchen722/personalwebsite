@@ -51,14 +51,28 @@ function Portfolio() {
             </div>
             <div className="secondC">
               <p>
-                My second attempt at making a cool website with my family. It
-                maintained a cool 3.9/5 ⭐️ on google, and increased sales
-                during quarantine by ~10%. Coded in React.js.
+                During my time at Miami Car Wash in East Meadows, NY from March
+                2020 to February 2023, I wore two hats: Sales Manager and
+                Software Developer. As Sales Manager, I led a crew of 8-10 folks
+                every day for a solid three years, flexing my leadership muscles
+                and keeping sales operations running smoothly. On the tech side
+                of things, I whipped up some cool stuff. With React.js and Git,
+                I cooked up a slick website that made sales shoot up by 10%,
+                giving our online presence a serious boost and making us more
+                visible to the masses. Then, I dove into Node.js and MySQL to
+                build a nifty inventory system tailored just for our car wash.
+                It kept our inventory in check, making sure everything flowed
+                smoothly and we never ran out of the essentials. Overall, I
+                played a big part in making Miami Car Wash a well-oiled machine
+                during my time there.
               </p>
             </div>
             <div className="thirdC">
               <a href="https://www.miamicarwash.us/">
-                <img src={require("../assets/MiamiCarWash.png")} alt="Description of the" />
+                <img
+                  src={require("../assets/MiamiCarWash.png")}
+                  alt="Description of the"
+                />
               </a>
             </div>
           </div>
@@ -80,17 +94,31 @@ function Portfolio() {
             </div>
             <div className="secondC">
               <p>
-                I made the frontend of the website for my family restaurant with
-                my sister. It was a full stack development project using
-                React.js and a restaurant specific hardware system. Presently,
-                it has achieved an average of approximately $6500 in daily
-                online orders and maintained a solid 4 ⭐️ in Google reviews.
-                (Created in Highschool)
+                The links to the right and left is to the website I helped make
+                when I was in middle school 😅
+              </p>
+              <p>---</p>
+              <p>
+                At Lemonleaf Grill, I worked with a team of four innovators to
+                develop and launch an intuitive POS system, which completely
+                transformed the restaurant's operational efficiency and
+                significantly improved the dining experience for our customers.
+                This initiative resulted in substantial financial growth, with
+                an average daily online order revenue of around $6500, largely
+                due to the successful implementation of the POS system.
+                Leveraging the platform independence of Java and the robust data
+                management capabilities of SQL, we engineered a scalable and
+                adaptable solution capable of handling over 30 distinct dishes
+                while providing dynamic user interaction tailored to various
+                roles within the restaurant.
               </p>
             </div>
             <div className="thirdC">
               <a href="https://lemonleafgrill.m988.com/index.html?nav=CONTACT">
-                <img src={require("../assets/Lemonleaf_Grill.jpg")} alt="Description of the image" />
+                <img
+                  src={require("../assets/Lemonleaf_Grill.jpg")}
+                  alt="Description of the image"
+                />
               </a>
             </div>
           </div>
@@ -135,7 +163,10 @@ function Portfolio() {
                 id="hover"
                 href="https://www.canva.com/design/DAFsnyOUZ0M/cHfmughEsAnBYS2En00xtQ/edit"
               >
-                <img src={require("../assets/crownHeights.jpeg")} alt="Description of the image" />
+                <img
+                  src={require("../assets/crownHeights.jpeg")}
+                  alt="Description of the image"
+                />
               </a>
             </div>
           </div>

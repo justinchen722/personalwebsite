@@ -6,6 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { useState } from "react";
+import Cube from "./cube";
 
 function Home(props) {
   const ExampleComponent = () => {
@@ -94,6 +95,35 @@ function Home(props) {
   //   handleClickScroll();
   // }, [sasha]);
 
+  const getRandomColor = () => {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
+
+  const [colours, setColours] = useState(['red', 'yellow', 'orange', 'green', 'purple']);
+  const [colorIndex, setColorIndex] = useState(0);
+
+  const changeColor = () => {
+    setColours(prevColours => {
+      const newColors = [...prevColours, getRandomColor()];
+
+    if (prevColours.length >= 50) {
+      return newColors.slice(1);
+    }
+    return newColors
+  });
+
+    setColorIndex(prevIndex => (prevIndex + 1) % colours.length);
+  }
+
+  useEffect(() => {
+    console.log(colours);
+  }, [colours]);
+
   return (
     <div>
       <link
@@ -106,9 +136,10 @@ function Home(props) {
         href="#"
         className="coverContainer"
       >
-        <div className="cover">
+        <div onClick={changeColor} className="cover">
           <div className="nameContainer">
-            <h1 className="name">
+            <Cube color={colours[colorIndex]}/>
+            <div className="name">
               <p className="hi">
                 hi, i am justin.
                 <img
@@ -117,7 +148,7 @@ function Home(props) {
                 ></img>
               </p>
               <ExampleComponent></ExampleComponent>
-            </h1>
+            </div>
           </div>
         </div>
       </div>

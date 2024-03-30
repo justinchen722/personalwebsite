@@ -7,11 +7,9 @@ function Nav() {
     <div className="navbar">
       <ul className="navContainer">
         <li>
-          <Link className="link" to="/" style={{ textDecoration: "none" }}>
-            <a href="#home">
-              <img className="icon" src={require("../assets/icon.png")}></img>
-            </a>
-          </Link>
+          <a id="home" href="#home">
+            JC
+          </a>
         </li>
         <li>
           <Link
@@ -20,13 +18,15 @@ function Nav() {
             to="/personalwebsite/"
             style={{ textDecoration: "none" }}
           >
-            <a id='hover' style={{ textDecoration: "none" }} href="#home">Home</a>
+            <a id="hover" style={{ textDecoration: "none" }} href="#home">
+              Home
+            </a>
           </Link>
         </li>
         <li>
           <Link
             id="hover"
-            className = "link"
+            className="link"
             style={{ textDecoration: "none" }}
             href="#about-me-section"
             to="/personalwebsite/about-me"

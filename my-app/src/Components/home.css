@@ -25,12 +25,23 @@
 
 .nameContainer {
     display: flex;
-    justify-content: center;
+     justify-content: center;
     align-items: center;
     width: 100%;
     backdrop-filter: blur(10px);
     border-bottom: black solid;
-    overflow: hidden;
+    overflow: hidden; 
+    height: 100%;
+}
+
+.name {
+    position: absolute;
+    /* backdrop-filter: blur(8px); */
+    /* height: 100%;
+    width: 100%;
+    top: 80%; 
+    left: 60%; 
+    transform: translate(-50%, -50%);  */
 }
 
 .hi {
@@ -43,6 +54,7 @@
     height: 85vh;
     display: grid;
     position: relative;
+    background-color: darkslategrey;
     /* background: linear-gradient(to right, #ff7e5f, #feb47b); Replace colors with your desired gradient */
     z-index: 1;
     grid-template-columns: 1fr 2.5fr;

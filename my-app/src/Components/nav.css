@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5; 
-    color: black; 
+    color: white; 
     font-weight: bolder;
 }
 
@@ -15,7 +15,7 @@
 .navbar {
     /* background-image: url('../../public/moss.jpg'); */
     /* background-repeat: no-repeat; */
-    background-color: aliceblue;
+    background-color: black;
     position: fixed;
     z-index: 2;
     width: 100%;
@@ -48,10 +48,10 @@ li {
 }
 
 .cover {
-    background-image: url('../assets/moss.jpg');
+    /* background-image: url('../assets/moss.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     height: 100vh;
     position: relative;
 }
@@ -146,4 +146,12 @@ li {
 .icon {
   position: relative;
   width: 100px;
+}
+
+#home {
+  position: relative;
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+  padding: 20px;
 }
