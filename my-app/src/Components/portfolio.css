@@ -10,7 +10,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: darkslategrey;
+    background: #222222;
 }
 
 .titleContainer{
@@ -34,7 +34,7 @@
     width: 90vw;
     height: auto;
     display: flex;
-    border-top:black solid;
+    border-top: white solid;
 }
 
 .card {
@@ -60,7 +60,7 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-    border-right: black solid;
+    border-right: grey solid;
 }
 
 .firstTitle {
@@ -79,6 +79,7 @@
     font-size: 2vw;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
     @media screen and (max-width: 600px) {
         font-size: 20px;
     }
@@ -115,7 +116,7 @@
     border-radius: 10px;
     border-style: none;
     padding: 1px 5px;
-    border: black solid;
+    border: red solid;
 }
 
 .secondC {
@@ -167,6 +168,7 @@
     transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
   }
 #hover:hover {
-    box-shadow: inset 1000px 0 0 0 #54b3d6;
+    box-shadow: inset 1000px 0 0 0 	#636363;
     color: white;
+    text-decoration: none;
 }

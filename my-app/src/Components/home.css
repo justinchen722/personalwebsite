@@ -54,7 +54,7 @@
     height: 85vh;
     display: grid;
     position: relative;
-    background-color: darkslategrey;
+    background-color: #222222;
     /* background: linear-gradient(to right, #ff7e5f, #feb47b); Replace colors with your desired gradient */
     z-index: 1;
     grid-template-columns: 1fr 2.5fr;
