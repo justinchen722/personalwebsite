@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/personalwebsite/static/css/main.97b66966.css",
-    "main.js": "/personalwebsite/static/js/main.020ca1e5.js",
+    "main.css": "/personalwebsite/static/css/main.63b715bf.css",
+    "main.js": "/personalwebsite/static/js/main.6685a4e0.js",
     "static/js/453.ed3810f9.chunk.js": "/personalwebsite/static/js/453.ed3810f9.chunk.js",
     "static/media/MiamiCarWash.png": "/personalwebsite/static/media/MiamiCarWash.2a547824b53e30871a97.png",
     "static/media/wavinghand.gif": "/personalwebsite/static/media/wavinghand.6c265c4f43548000b117.gif",
-    "static/media/mogged.jpg": "/personalwebsite/static/media/mogged.31364c97c00abb650ca9.jpg",
-    "static/media/moss.jpg": "/personalwebsite/static/media/moss.8bd143ff40741e4476d8.jpg",
+    "static/media/IMG_3260.jpeg": "/personalwebsite/static/media/IMG_3260.db62f0c694f315df7146.jpeg",
     "static/media/Lemonleaf_Grill.jpg": "/personalwebsite/static/media/Lemonleaf_Grill.8c285bbef0bc7bd67382.jpg",
-    "static/media/icon.png": "/personalwebsite/static/media/icon.02208ea0f9a5b828b339.png",
     "static/media/crownHeights.jpeg": "/personalwebsite/static/media/crownHeights.e83b3dd306a38c718274.jpeg",
     "static/media/slick.svg": "/personalwebsite/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/personalwebsite/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/personalwebsite/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/personalwebsite/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/personalwebsite/index.html",
-    "main.97b66966.css.map": "/personalwebsite/static/css/main.97b66966.css.map",
-    "main.020ca1e5.js.map": "/personalwebsite/static/js/main.020ca1e5.js.map",
+    "main.63b715bf.css.map": "/personalwebsite/static/css/main.63b715bf.css.map",
+    "main.6685a4e0.js.map": "/personalwebsite/static/js/main.6685a4e0.js.map",
     "453.ed3810f9.chunk.js.map": "/personalwebsite/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97b66966.css",
-    "static/js/main.020ca1e5.js"
+    "static/css/main.63b715bf.css",
+    "static/js/main.6685a4e0.js"
   ]
 }
